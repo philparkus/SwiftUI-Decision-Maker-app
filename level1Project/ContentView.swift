@@ -51,7 +51,7 @@ struct ContentView: View {
             }
             
         }
-        Button("Show Magic Choice") {
+        Button("Show Magic Choice 2") {
             showingAlert = true
             alertMessage = optionsList.randomElement() ?? "please enter choices"
             
